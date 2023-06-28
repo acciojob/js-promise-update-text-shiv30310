@@ -1,12 +1,12 @@
-//your JS code here. If required.
-
 const output = document.getElementById("output")
 
 function resPromise(){
-	return new Promise(resolve, reject){
+	return new Promise(resolve => {
 		setTimeout(() => {
-			output.innerText = "Hello, world!"
+			output.innerText = "Hello World!"
 		}, 1000)
-	}
+	})
+					   
 }
+
 resPromise()
